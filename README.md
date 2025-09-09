@@ -14,7 +14,24 @@ The board connects via **USB-C**, which is used for programming, testing, and al
 - Two built-in LEDs (connected via jumpers)  
 - Two RGB LEDs  
 - Integrated accelerometer and gyroscope module  
-- Direct connection for up to eight servo motors  
+- Direct connection for up to eight servo motors 
+
+---
+
+### **Main Technical Specifications**
+
+* **Microcontroller:** ESP32-S3 WROOM-1
+* **Connectivity:** 2.4 GHz Wi-Fi (802.11 b/g/n) and Bluetooth 5.0 (LE)
+* **Dimensions:** 68 mm x 50 mm
+* **Power Supply:** 
+    * **USB-C connector:** For power and programming. Power can be controlled via a switch.
+    * **Battery:** Battery connection (Li-ion/Li-pol) via jumper.
+* **Charging Circuit:** **TP4056** with a charging current of **270 mA**
+    * **Charging Status Indication:** Bi-color LED
+        * **Red:** Charging
+        * **Green:** Charging complete
+        * **Green - blinking:** Battery not connected
+ 
 
 ---
 
